@@ -1,0 +1,112 @@
+header{
+    background-color: #7c5baf;
+    border: 0px;
+    text-align: center;
+    padding:40px;
+    color:aliceblue;
+    font-size: large;
+    
+}
+header img{
+     border-radius: 100%;
+    object-fit: cover;
+}
+header div{
+    columns: 3;
+}
+header P{
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    font-size: large;
+    font-weight:bold;
+    color:aliceblue;
+    
+}
+header Pre{
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    font-style: italic;
+    color: #c7c7da;
+}
+nav{
+    background-color: #9383bc;
+    text-align: center;
+    
+}
+nav a{
+    padding: 14px;
+    color:#2d2441;
+    display: inline-flex;
+}
+nav a:hover{
+    background-color: #9ca3bd;
+    color:white;
+}
+article{
+    background-color: #dddeec;
+}
+.html{
+    color: #694f9f;
+    text-align: left;
+    padding: 20px;
+    margin:10px 20px;
+    font-family: "ZeroGothic";
+}
+
+}
+.zoom{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+.skill{
+    text-indent: 50px;
+    color: #4b3172;
+}
+.skill li{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.skill .bar1{
+width:250px;
+height: 20px;
+border: solid 3px #7c5baf;
+border-radius: 10px;
+margin: 10px;
+}
+.value.P65{
+    height: 100%;
+    width: 65%;
+    background: linear-gradient(135deg, #a240f1, #d0b4eb);
+}
+.value.P60{
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(135deg, #a240f1, #d0b4eb);
+}
+.value.P85{
+    height: 100%;
+    width: 85%;
+    background: linear-gradient(135deg, #a240f1, #d0b4eb);
+}
+.word1{
+    font-family: "xiaowei";
+    font-size: large;
+}
+.word2{
+    font-family: "微軟黑正體";
+    color: #694f9f;
+    text-align: left;
+    padding: 20px;
+    margin:10px 10px;
+    font-size: 12px;
+}
+div{
+    display: block;
+}
+footer{
+    text-align: center;
+}
